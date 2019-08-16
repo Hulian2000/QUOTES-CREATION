@@ -1,27 +1,37 @@
-# Quotes
+##Author.
+First Independent project at Moringa Core , Aug16th, 2019
+By Hulian Juba.
+##Description.
+The Quotes by Angular is simply a webpage that allows users to enter quotes, and display them back to the user
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.1.
+Once the user submits the quotes, the quote appears on the QUOTES Section in the webpage.
 
-## Development server
+The author of the quote and the number of likes the quotes have are hidden in the details section. Pressing the details section will reveal the details.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+The details section has a delete button. Pressing the delete button will delete the entire quote from the page.
 
-## Code scaffolding
+A user can like or dislike a quote. The quote with the highest quote becomes highlighted.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+##Specifications.
+Behavior	Input	Output
+Displaying Quote	Name, Date & Quote	Displays Quote and number of days passed
+Show Details	Details button	Displays the Author of quote and number of likes
+Number of likes	Press thumbs-up or thumbs-down button	Increases or decreases number of likes
+####Website Preview.
+Click here to see the live site.
+https://github.com/Hulian2000/QUOTES-CREATION.git
 
-## Build
+####Known Bugs.
+No bugs so far. If found, email me at developer 
+hulian.ashraf703@yahoo.com
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+####Technologies Used.
+1. HTML
+2. Bootstrap
+3. Angular JS
+####Support and contact details.
+Contact me on developer.waweru@gmail.com for any comments, reviews or advice.
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+##License. 
+MTN 2019.
+Copyright (c) Hulian Juba.
