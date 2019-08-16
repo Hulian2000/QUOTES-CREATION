@@ -2,9 +2,9 @@
 First Independent project at Moringa Core , Aug16th, 2019
 By Hulian Juba.
 ##Description.
-The Quotes by Angular is simply a webpage that allows users to enter quotes, and display them back to the user
+The Quotes by Angular is simply a webpage that allows users to enter quotes, and display them back to the user.
 
-Once the user submits the quotes, the quote appears on the QUOTES Section in the webpage.
+When the user submits the quotes, the quote appears on the QUOTES Section in the webpage.
 
 The author of the quote and the number of likes the quotes have are hidden in the details section. Pressing the details section will reveal the details.
 
