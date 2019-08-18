@@ -1,7 +1,7 @@
-##Author.
+## Author.
 First Independent project at Moringa Core , Aug16th, 2019
 By Hulian Juba.
-##Description.
+## Description.
 The Quotes by Angular is simply a webpage that allows users to enter quotes, and display them back to the user.
 
 When the user submits the quotes, the quote appears on the QUOTES Section in the webpage.
@@ -12,26 +12,26 @@ The details section has a delete button. Pressing the delete button will delete 
 
 A user can like or dislike a quote. The quote with the highest quote becomes highlighted.
 
-##Specifications.
+## Specifications.
 Behavior	Input	Output
 Displaying Quote	Name, Date & Quote	Displays Quote and number of days passed
 Show Details	Details button	Displays the Author of quote and number of likes
 Number of likes	Press thumbs-up or thumbs-down button	Increases or decreases number of likes
-####Website Preview.
+#### Website Preview.
 Click here to see the live site.
 https://github.com/Hulian2000/QUOTES-CREATION.git
 
-####Known Bugs.
+#### Known Bugs.
 No bugs so far. If found, email me at developer 
 hulian.ashraf703@yahoo.com
 
-####Technologies Used.
+#### Technologies Used.
 1. HTML
 2. Bootstrap
 3. Angular JS
-####Support and contact details.
+#### Support and contact details.
 Contact me on developer.waweru@gmail.com for any comments, reviews or advice.
 
-##License. 
+## License. 
 MTN 2019.
 Copyright (c) Hulian Juba.
