@@ -1,1 +1,6 @@
-/* You can add global styles to this file, and also import other style files */
+.image{
+    background-image: url('https://www.google.com/imgres?imgurl=https%3A%2F%2Fd1yn1kh78jj1rr.cloudfront.net%2Fimage%2Fthumbnail%2FrGMF3jSims9o98x%2Fstoryblocks-sunset-over-rocky-sea-coast_H8ogAvuyf_thumb.jpg&imgrefurl=https%3A%2F%2Fwww.storyblocks.com%2Fstock-image&docid=4Z8aaYAsOUBDmM&tbnid=nMVoUPbRYZ1i2M%3A&vet=10ahUKEwid6_Pm0ozkAhUO_qQKHWpcC-AQMwi-ASg2MDY..i&w=300&h=200&bih=669&biw=1299&q=images&ved=0ahUKEwid6_Pm0ozkAhUO_qQKHWpcC-AQMwi-ASg2MDY&iact=mrc&uact=8');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+}
