@@ -25,7 +25,7 @@ export class MyQuotesComponent implements OnInit {
     this.quotes.push(quote);
   }
 
-  seeDetails(index){
+  showDetails(index){
     this.quotes[index].showDetails = !this.quotes[index].showDetails;
   }
 
