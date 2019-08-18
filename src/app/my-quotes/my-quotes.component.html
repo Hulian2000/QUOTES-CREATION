@@ -2,7 +2,11 @@
     <div class="row">
         <div class="col-md-6">
             <h1>my quotes</h1>
-            
+            <div *ngFor="let quote of quotes;let i=index">
+                <p>Quote: {{Quote.id}}</p>
+                <p>{{quote.name}}</p>
+            </div>
+
         </div>
     </div>
 </div>

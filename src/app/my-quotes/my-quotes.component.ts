@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Quote } from '@angular/compiler';
 
 @Component({
   selector: 'app-my-quotes',
@@ -6,6 +7,18 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./my-quotes.component.css']
 })
 export class MyQuotesComponent implements OnInit {
+  quotes:Quote[]=[
+    new Quote(1,"Every dog has its  own day","Patrick Jungle","Hulian Juba",new Date(2019,0,15)),
+    new Quote(2,'The fear of the Lord is the beginning of wisdom','Sabrina Mwashi','Hulian Juba',new Date(2019,1,12)),
+    new Quote(3,'No matter how dry the jungle is,the Lion can not eat grass','Kayren Stars','Hulian Juba',new Date(2019,3,13)),
+    new Quote(4,'You can play with your mothers titties but you cannot play with your fathers testicles','African man','Hulian Juba',new Date(2019,4,28)),
+    new Quote(5,'Every success is a growth to the wise','Lawrence Drawner','Hulian Juba',new Date(2019,5,14)),
+    new Quote(6,'In every succeful man there are so many sacrifice he had to give up','Augusto Mon','Hulian Juba',new Date(2019,6,12)),
+    new Quote(7,'Everything that was and is,was in God','Mathew Flirt','Hulian Juba',new Date(2019,7,19)),
+    new Quote(8,'God is the source of all potential','Ajigan New','Hulian Juba',new Date(2019,8,21)),
+  ];
+    
+
 
   constructor() { }
 
