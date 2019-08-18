@@ -3,9 +3,8 @@
         <div class="col-md-6">
             <h1>my quotes</h1>
             <div *ngFor="let quote of quotes;let i=index">
-                <p>Quote: {{quote.id}} {{quote.name}}</p>
-                
-                 <button (click)=showDetails(i)>Show Details</button>                
+                <p>Quote{{quote.id}}:<br>{{quote.name}}</p>
+                 <button (click)=showDetails(i) class="btn btn-sm btn-primary">Show Details</button>                
                 <app-my-quote-details *ngIf="quote.showDetails" [quote]="quote" (isDelete)="deleteQuote($event,i)"></app-my-quote-details>
             </div>
 

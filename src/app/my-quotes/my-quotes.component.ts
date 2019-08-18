@@ -17,6 +17,31 @@ export class MyQuotesComponent implements OnInit {
     new Quote(7,'Everything that was and is,was in God','Mathew Flirt','Hulian Juba',new Date(2019,7,19)),
     new Quote(8,'God is the source of all potential','Ajigan New','Hulian Juba',new Date(2019,8,21)),
   ];
+
+  addNewQuote(quote){
+    let quoteLength = this.quotes.length;
+    quote.id = quoteLength+1;
+    quote.dateCreated = new Date(quote.dateCreated);
+    this.quotes.push(quote);
+  }
+
+  seeDetails(index){
+    this.quotes[index].showDetails = !this.quotes[index].showDetails;
+  }
+
+  deleteQuote(isDelete, index){
+    if(isDelete){
+
+      let toDelete=confirm(`Are you sure you want to delete ${this.quotes[index].name} this quote?`);
+
+      if(toDelete){
+        this.quotes.splice(index,1);
+      }
+      
+    }
+  }
+
+
     
 
 
