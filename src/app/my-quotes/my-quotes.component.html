@@ -5,6 +5,7 @@
             <div *ngFor="let quote of quotes;let i=index">
                 <p>Quote: {{Quote.id}}</p>
                 <p>{{quote.name}}</p>
+                <app-my-quote-details *ngIf="quote.showDetails" [quote]="quote" (isDelete)="deleteQuote($event,i)"></app-my-quote-details>
             </div>
 
         </div>
