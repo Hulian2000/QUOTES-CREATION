@@ -1,5 +1,5 @@
-<p>Author {{quote.author}}</p>
-<p>SubmittedBy{{quote.submittedBy}} <br>Created on: {{quote.dateCreation|date}}</p>
-<button (click)="quote.upvotes=quote.upvotes+1">upvotes{{quote.upvotes}}</button>
+<p>Author: {{quote.author}}</p>
+<p>Submitted by: {{quote.submittedBy}} <br>Created on: {{quote.dateCreation|date}}</p>
+<button (click)="quote.upvotes=quote.upvotes+1">upvotes {{quote.upvotes}}</button>
 <button (click)="quote.downvotes=quote.downvotes+1">downvotes{{quote.downvotes}}</button>
 <button (click)="quoteDelete(true)">Delete</button>
