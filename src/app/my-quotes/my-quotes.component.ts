@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Quote } from '@angular/compiler';
+import { Quote } from '../quotes';
 
 @Component({
   selector: 'app-my-quotes',
@@ -8,7 +8,7 @@ import { Quote } from '@angular/compiler';
 })
 export class MyQuotesComponent implements OnInit {
   quotes:Quote[]=[
-    new Quote(1,"Every dog has its  own day","Patrick Jungle","Hulian Juba",new Date(2019,0,15)),
+    new Quote(1,"Every dog has its  own day","Patrick Jungle","Hulian Juba",new Date(2019,0,12)),
     new Quote(2,'The fear of the Lord is the beginning of wisdom','Sabrina Mwashi','Hulian Juba',new Date(2019,1,12)),
     new Quote(3,'No matter how dry the jungle is,the Lion can not eat grass','Kayren Stars','Hulian Juba',new Date(2019,3,13)),
     new Quote(4,'You can play with your mothers titties but you cannot play with your fathers testicles','African man','Hulian Juba',new Date(2019,4,28)),
