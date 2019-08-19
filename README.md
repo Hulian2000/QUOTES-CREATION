@@ -30,7 +30,7 @@ hulian.ashraf703@yahoo.com
 2. Bootstrap
 3. Angular JS
 #### Support and contact details.
-Contact me on developer.waweru@gmail.com for any comments, reviews or advice.
+Contact me on developer hulian.ashraf703@yahoo.com.com for any comments, reviews or advice.
 
 ## License. 
 MTN 2019.
